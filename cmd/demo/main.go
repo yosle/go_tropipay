@@ -10,8 +10,8 @@ import (
 )
 
 func main() {
-	clientID := "a346e4ff0584c5f0695b24d338874241"
-	clientSecret := "ceb6de6e0d76d3aab51518c44cb8ecf6"
+	clientID := "xxxxxxxxxxxxxxxxxxxxxxxxxx"
+	clientSecret := "xxxxxxxxxxxxxxxxxxxxxx"
 
 	if clientID == "" || clientSecret == "" {
 		fmt.Println("Usage: Please set TROPIPAY_CLIENT_ID and TROPIPAY_CLIENT_SECRET environment variables")
